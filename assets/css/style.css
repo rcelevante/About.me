@@ -3,9 +3,11 @@
     margin: 0;
 }
 body {
-    background-image: url("../images/background.jpeg");
-    background-size: 1650px;
+    background-image: url("../images/leaf.jpeg");
+    background-size: 1900px;
     background-position: center;
+    
+    
 }
 
 header {
