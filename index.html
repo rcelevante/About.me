@@ -11,57 +11,45 @@
 
 </head>
 <body>
-    <header>
-        <nav>
-            
-            <ul>
-                
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#form">Contact Me</a>
-                </li>
-    
-            </ul>
-
-        </nav>
-    </header>
+<!-- NAV BAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">Rochelle Ruiz</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#">Projects</a>
+        <a class="nav-item nav-link active" href="./assets/Resume.pdf">Resume</a>
+        </div>
+    </div>
+</nav>
+<!-- NAV BAR -->
 </br>
-    <div class="jumbotron text-center">
-        <div class="container">
-          <h1>I'm Rochelle</h1>
-          <p>...a foodie who enjoys creating <b>beautiful and functional</b> webpage... Los Angeles based web developer currently working on my skills. Challenges and new experiences are my addiction (besides food). If you have any cool ideas or opportunities, let's connect!  🖤
+<!-- MAIN CONTENT GREETING -->
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1>I'm Rochelle</h1>
+        <p>...a foodie who enjoys creating <b>beautiful and functional</b> webpage... Los Angeles based web developer currently working on my skills. Challenges and new experiences are my addiction (besides food). If you have any cool ideas or opportunities, let's connect!  🖤
+        </p>
+        <a href="#" class="btn btn-primary">Read More</a>
+    </div>
+</div>
+<!-- MAIN CONTENT GREETING -->
+</br>
+<!-- PROJECTS -->
+    <div class="card" id="project1" style="width: 20rem;">
+        <img class="card-img-top" href="https://achigas.github.io/KickBack/" src="./assets/images/kickback.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">An application made by our group that generates recipe and movie ideas for a night in.  
+           <a href="https://achigas.github.io/KickBack/"><i>Check it out!</i></a>
           </p>
-          <a href="#" class="btn btn-primary">Read More</a>
         </div>
     </div>
-
-<section>
-    <h2>Check out my projects! (More to come)</h2>
-    <div class="grid-container">
-        <div class="item1">
-            <h1><a href="https://rcelevante.github.io/run-buddy/">ℹ️</h1>
-        </div>
-
-        <div class="item2">HTML/CSS</div>
-        <div class="item3">3</div>  
-        <div class="item4">4</div>
-        <div class="item5">5</div>
-        <div class="item6">6</div>
-        <div class="item7">7</div>
-        <div class="item8">8</div>  
-    </div>
-
-</section>
-
-
+<!-- PROJECTS -->
+</br>
+<!-- MESSAGE FORM -->
 <section class="form">
     <div class="container">
-        <h3> Message Me!</h3>
+        <h3 class="title text-center"> Message Me</h3>
         <form>
           <div class="form-group">
             <label>Name</label>
@@ -79,17 +67,23 @@
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
 </section>
-
-
-
-<section class="footer">
-    <ul>
-        <li><a href="www.linkedin.com/in/rochelleruiz">LinkedIn</li>
-        <li><a href="https://github.com/rcelevante">Github</li>
-        <li><a href="./assets/Resume.pdf">Resume</li>
-    </ul>
-    Coded with love by Rochelle Ruiz
-</section>
-    
+<!-- MESSAGE FORM -->
+</br>
+<!-- FOOTER -->
+<div class="card">
+    <div class="card-header">
+      Coded with love... by Rochelle Ruiz
+    </div>
+    <div class="card-body">
+        <nav class="nav">
+            <a class="nav-link active" href="www.linkedin.com/in/rochelleruiz">LinkedIn</a>
+            <a class="nav-link" href="https://github.com/rcelevante">Github</a>
+            <a class="nav-link" href="./assets/Resume.pdf">Resume</a>
+          </nav>
+    </div>
+</div>
+<!-- FOOTER -->
+<script src="assets/js/script.js"></script>
 </body>
 </html>
+
